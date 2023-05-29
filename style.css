@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+font-family: Georgia, 'Times New Roman', Times, serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    background: lightcyan;
+    min-height: 100vh;
+}
+
+.section{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+   background: whitesmoke;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    
+}
+
+.section .izquierdo{
+    position: relative;
+    background:  rgb(3, 181, 246);
+    padding: 40px;
+}
+
+
+img{
+    max-width: 100%;
+   display: block;   
+   border-radius:  5rem;
+
+}
+
+
+
+
+
+.section .derecho{
+    position: relative;
+    background:  whitesmoke;
+    padding: 40px;
+}
+
+.derecho ul li 
+{
+    position: relative;
+    list-style: none;
+    margin: 20px 0;
+    cursor: pointer;
+
+
+
+}
